@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/52c81ed702.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <main>
+        <div class="upper_section">
+            <div class="wrapper_auto_margin">
+                <input type="text" id="cityName">
+                <button id="searchBtn">search</button>
+            </div>
+        </div>
+        <div class="lower_section">
+            <div class="left">
+                <div class="left_upper">
+                    <div class="main_weather_data">
+                        <div class="weather_text">
+                            <div class="weather_condition_text" id="city">Madrid</div>
+                            <div class="chances_of_rain">chances of rain 0%</div>
+                        </div>
+                        <div class="weather_temp" id="temperature">31&deg;</div>
+                    </div>
+                    <div class="main_weather_icon" id="main_weather_icon">
+                        <i class="fa-solid fa-sun" style="color: #f07b3d;"></i>
+                    </div>
+                </div>
+                <div class="left_middle">
+                    <div class="left_middle_heading">TODAY'S FORECAST</div>
+                    <div class="forecast_data" id="hourly_weather">
+                        <div class="forecast_data_hourly">
+                            <div class="forecast_time">6:00 AM</div>
+                            <div class="forecast_icon"> <i class="fa-solid fa-sun" style="color: #f07b3d;"></i></div>
+                            <div class="forecast_temp">31&deg;</div>
+                        </div>
+                        <div class="verticle_line"></div>
+                        <!-- divider here -->
+                        <div class="forecast_data_hourly">
+                            <div class="forecast_time">6:00 AM</div>
+                            <div class="forecast_icon"> <i class="fa-solid fa-sun" style="color: #f07b3d;"></i></div>
+                            <div class="forecast_temp">31&deg;</div>
+                        </div>
+                        <div class="verticle_line"></div>
+                        <!-- divider here -->
+                        <div class="forecast_data_hourly">
+                            <div class="forecast_time">6:00 AM</div>
+                            <div class="forecast_icon"> <i class="fa-solid fa-sun" style="color: #f07b3d;"></i></div>
+                            <div class="forecast_temp">31&deg;</div>
+                        </div>
+                        <div class="verticle_line"></div>
+                        <!-- divider here -->
+                        <div class="forecast_data_hourly">
+                            <div class="forecast_time">6:00 AM</div>
+                            <div class="forecast_icon"> <i class="fa-solid fa-sun" style="color: #f07b3d;"></i></div>
+                            <div class="forecast_temp">31&deg;</div>
+                        </div>
+                        <div class="verticle_line"></div>
+                        <!-- divider here -->
+                        <div class="forecast_data_hourly">
+                            <div class="forecast_time">6:00 AM</div>
+                            <div class="forecast_icon"> <i class="fa-solid fa-sun" style="color: #f07b3d;"></i></div>
+                            <div class="forecast_temp">31&deg;</div>
+                        </div>
+                        <div class="verticle_line"></div>
+                        <!-- divider here -->
+                        <div class="forecast_data_hourly">
+                            <div class="forecast_time">6:00 AM</div>
+                            <div class="forecast_icon"> <i class="fa-solid fa-sun" style="color: #f07b3d;"></i></div>
+                            <div class="forecast_temp">31&deg;</div>
+                        </div>
+                        <div class="verticle_line"></div>
+                        <!-- divider here -->
+                        <div class="forecast_data_hourly">
+                            <div class="forecast_time">6:00 AM</div>
+                            <div class="forecast_icon"> <i class="fa-solid fa-sun" style="color: #f07b3d;"></i></div>
+                            <div class="forecast_temp">31&deg;</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="left_bottom">
+                    <div class="left_bottom_heading">AIR CONDITIONS</div>
+                    <div class="weather_data">
+                        <div class="flex_wrapper" id="condition">
+                            <!-- divider here -->
+                            <div class="temp_data">
+                                <div class="temp_data_upper">
+                                    <i class="fa-solid fa-temperature-full" style="color: #878b92;"></i> Real Feel
+                                </div>
+                                <div class="condition_num_data" id="real_feel_num_data">31&deg;</div>
+                            </div>
+                            <!-- divider here -->
+                            <div class="temp_data">
+                                <div class="temp_data_upper">
+                                    <i class="fa-solid fa-temperature-full" style="color: #878b92;"></i> Humidity
+                                </div>
+                                <div class="condition_num_data" id="humidity">31&deg;</div>
+                            </div>
+                            <!-- divider here -->
+                            <div class="temp_data">
+                                <div class="temp_data_upper">
+                                    <i class="fa-solid fa-temperature-full" style="color: #878b92;"></i> Wind Dir
+                                </div>
+                                <div class="real_feel_num_data" id="windDirection">31&deg;</div>
+                            </div>
+                            <!-- divider here -->
+                            <div class="temp_data">
+                                <div class="temp_data_upper">
+                                    <i class="fa-solid fa-temperature-full" style="color: #878b92;"></i> Wind Speed
+                                </div>
+                                <div class="real_feel_num_data" id="windSpeed">31&deg;</div>
+                            </div>
+                            <!-- divider here -->
+                            <div class="temp_data">
+                                <div class="temp_data_upper">
+                                    <i class="fa-solid fa-temperature-full" style="color: #878b92;"></i> weather
+                                </div>
+                                <div class="real_feel_num_data" id="weatherCondition">31&deg;</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="right">
+                <div class="right_main_heading">TODAY'S FORECAST</div>
+                <div class="wrapper">
+                    <div class="flex_wrapper">
+                        <div class="day">TODAY</div>
+                        <div class="condition"> <span> <i class="fa-solid fa-sun" style="color: #f07b3d;"></i></span>
+                            <span>SUNNY</span></div>
+                        <div class="temp">30/18</div>
+                    </div>
+                    <div class="horizontal_divider"></div>
+                </div>
+                <!-- divider here -->
+                <div class="wrapper">
+                    <div class="flex_wrapper">
+                        <div class="day">TODAY</div>
+                        <div class="condition"> <span> <i class="fa-solid fa-sun" style="color: #f07b3d;"></i></span>
+                            <span>SUNNY</span></div>
+                        <div class="temp">30/18</div>
+                    </div>
+                    <div class="horizontal_divider"></div>
+                </div>
+                <!-- divider here -->
+                <div class="wrapper">
+                    <div class="flex_wrapper">
+                        <div class="day">TODAY</div>
+                        <div class="condition"> <span> <i class="fa-solid fa-sun" style="color: #f07b3d;"></i></span>
+                            <span>SUNNY</span></div>
+                        <div class="temp">30/18</div>
+                    </div>
+                    <div class="horizontal_divider"></div>
+                </div>
+                <!-- divider here -->
+                <div class="wrapper">
+                    <div class="flex_wrapper">
+                        <div class="day">TODAY</div>
+                        <div class="condition"> <span> <i class="fa-solid fa-sun" style="color: #f07b3d;"></i></span>
+                            <span>SUNNY</span></div>
+                        <div class="temp">30/18</div>
+                    </div>
+                    <div class="horizontal_divider"></div>
+                </div>
+                <!-- divider here -->
+                <div class="wrapper">
+                    <div class="flex_wrapper">
+                        <div class="day">TODAY</div>
+                        <div class="condition"> <span> <i class="fa-solid fa-sun" style="color: #f07b3d;"></i></span>
+                            <span>SUNNY</span></div>
+                        <div class="temp">30/18</div>
+                    </div>
+                    <div class="horizontal_divider"></div>
+                </div>
+                <!-- divider here -->
+                <div class="wrapper">
+                    <div class="flex_wrapper">
+                        <div class="day">TODAY</div>
+                        <div class="condition"> <span> <i class="fa-solid fa-sun" style="color: #f07b3d;"></i></span>
+                            <span>SUNNY</span></div>
+                        <div class="temp">30/18</div>
+                    </div>
+                    <div class="horizontal_divider"></div>
+                </div>
+                <!-- divider here -->
+                <div class="wrapper last_wrapper">
+                    <div class="flex_wrapper">
+                        <div class="day">TODAY</div>
+                        <div class="condition"> <span> <i class="fa-solid fa-sun" style="color: #f07b3d;"></i></span>
+                            <span>SUNNY</span></div>
+                        <div class="temp">30/18</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script type="module" src="./script.js"></script>
+
+
+</html>
