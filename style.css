@@ -183,7 +183,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 75.5px;
+    height: 65.5px;
     font-size: 12px;
     font-weight: 600;
     color: antiquewhite;
@@ -194,8 +194,9 @@ main {
 }
 .condition{
     display: flex;
-    justify-content: space-between;
-    width: 90px;
+    justify-content: start;
+    gap: 10px;
+    width: 120px;
 }
 .condition .fa-sun{
     font-size: 24px;
